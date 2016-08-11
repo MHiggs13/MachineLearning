@@ -1,0 +1,7 @@
+y = mx + c
+
+m = slope/gradient
+c = y intercept
+ 
+m = (mean(x) * mean(y) - mean(x*y) ) / (mean(x)*mean(x) - mean(x*x))
+c = mean(y) - m * mean(x)
